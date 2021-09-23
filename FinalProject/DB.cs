@@ -7,7 +7,7 @@ namespace FinalProject
 {
     class DB
     {
-        static private SqlConnection connection = new SqlConnection("Data Source=DESKTOP-R47Q6UC\\SQLEXPRESS;Initial Catalog=Fnproj;Integrated Security=True");
+        static private SqlConnection connection = new SqlConnection("Data Source=SE-4EVER\\SQLEXPRESS;Initial Catalog=Fnproj;Integrated Security=True");
 
         public void openConnection()
         {
